@@ -8,8 +8,8 @@ class CMada : public CHumanEatingPlant
 	}
 
 	void Kick()
-	{
-
+	{	
+		cout << "Mada:: no kick, no leg, no sound" << endl;
 	}
 };
 
