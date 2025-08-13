@@ -5,7 +5,7 @@ class CCat : public CAnimal
 public:
 	void Breath()
 	{
-		cout << "CAT :: mu mu mu m u mu m u m u.." << endl;
+		cout << "CAT :: Breath() mu mu mu m u mu m u m u.." << endl;
 	}
 };
 
