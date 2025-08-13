@@ -4,7 +4,7 @@ class CMada : public CHumanEatingPlant
 {
 	void Breath()
 	{
-		cout << "Mada:: .............with leaf,photosynthesis, no sound" << endl;
+		cout << "Mada::Breath() .............with leaf,photosynthesis, no sound" << endl;
 	}
 
 	void Kick()
