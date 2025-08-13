@@ -10,7 +10,7 @@
 
 int main()
 {
-    CDog dog(99);
+    //CDog dog(99);
 
 
 
@@ -21,19 +21,19 @@ int main()
     //CAnimal* pAnimal = &dog; // pAnimal RTTI = CDog
     //// pAnimal->AnyVirtual();   // CDog::AnyVirtual() is Running
 
-    //CEuglena ugl;
+    CEuglena ugl;
 
-    //CPlant* pPl;
-    //CAnimal* pAn;
+    CPlant* pPl;
+    CAnimal* pAn;
 
-    //pPl = &ugl;
-    //pAn = &ugl;
+    pPl = &ugl;
+    pAn = &ugl;
 
     //ugl.Photosynthesis();
     //ugl.Move();
 
-    //pPl->Photosynthesis();
-    //pAn->Move();
+    pPl->Photosynthesis();
+    pAn->Move();
 
     //ugl.CAnimal::nHelth = 1;
     //ugl.CPlant::nHelth;
