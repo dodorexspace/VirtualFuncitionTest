@@ -38,7 +38,7 @@ int main()
     //ugl.CAnimal::nHelth = 1;
     //ugl.CPlant::nHelth;
 
- 
+      // cleared
 
 
 
